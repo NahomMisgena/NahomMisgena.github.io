@@ -33,11 +33,8 @@ li a:hover {
 <body>
 
 <ul>
-  <li><a class="active" href="#Kleurmodelen">Home</a></li>
-  <li><a href="#Binairstelsel">News</a></li>
-  <li><a href="#Bitmap- en vectorafbeeldingen">Contact</a></li>
-  <li><a href="#Compressie">About</a></li>
+  <li><a href="#binairstelsel">Binairstelsel</a></li>
+  <li><a href="#Bitmap- en vectorafbeeldingen">News</a></li>
+  <li><a href="#Compressie">Compressie</a></li>
+  <li><a href="#Kleurmodellen">Contact</a></li>
 </ul>
-
-</body>
-</html>
