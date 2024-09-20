@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-    initial-scale=1.0" />
-    <title>Mijn pagina</title>
-    <link rel="stylesheet" href="opmaak.css" />
+<title>Over mij</title>
+<link rel="stylesheet" type="text/css" href="opmaak.css"> 
+
 </head>
 <body>
-   <nav class="navbar">
-     <div class="nav__container">
-      <a href="index.html" id="navbar__logo">Mijn pagina</a>
-      <div class="navbar__togle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-     </div>
-     <ul class="navbar__menu">
-       <li class="navbar__item">
-         <a href="/" class="navbar__links">Home</a>
-       </li>
-       <li class="navbar__item">
-         <a href="/Binair stelsel.html" class="navbar__links">Binair stelsel</a>
-       </li>
-       <li class="navbar__item">
-         <a href="Compressie.html" class="navbar__links">Compressie</a>
-       </li>
-       <li class="navbar__btn"><a href="Bitmap- en vectorafbeeldingen.html"
-     class="button">Bitmap- en vectorafbeeldingen</a></li>
-     </ul>
-    </div>
-    </nav>
-    </body>
-    </html>
-
-
-
-
-
-
-
- 
+  <body id="body2"></body> <!--Deze code is om de achtergrond kleur van alleen een pagina
+   te veranderen (ga CSS body2)-->
+  
+  <h1 style="color: brown;">heading</h1> <!--Dit is de code om de kleur van de tekst te veranderen-->
+    
+    
+    <div class="navbar">  
+      <a href="Wie ben ik?.html">Home</a>
+      <a href="Kleurmodellen.html">Kleurmodellen</a>
+      <a href="Compressie.html">Compressie</a>
+      <a href="Binair stelsel.html">Binairestelsel</a>
+      <a href="Bitmap- en vectorafbeeldingen.html">Bitmap- en vectorafbeeldingen</a>
+      <!--Hier heb ik mijn Navigation bar-->
+      <div class="dropdown">
+        <button class="dropbtn">dropdown ▼
+        </button>
+        <div class="dropdown-content"> <!--Dit zijn de links die je ziet als je over dropdown heen gaat met je cursor-->
+          <a href="overmij.html">Home</a>
+          <a href="kleurmodellen.html">Kleurmodellen</a>
+          <a href="compressie.html">Compressie</a>
+          <a href="binairstelsel.html">Binaire stelsel</a>
+          <a href="bitmap- en vector.html">Bitmap- en vectorafbeeldingen</a>
+        </div>
+      </div> 
+    </div> <!--het maken van een dropdown menu met <div>-->
+    
+    <h4>Over mij</h4>
+    <p>Ik ben 16 jaar en zit op het Vlietland collge in VWO 5. 
+        5 jaar geleden ben ik verhuisd naar Leiden en heb het hier wel naar me zin.
+        Ik ben een rustige jongen en kan me ook goed concentreren als het echt nodig is. 
+        Zelf doe ik op dit moment geen sport, maar 
+        als hobby vind ik voetbal wel leuk en gewoon buiten zijn. Ook vind ik het leuk om met vrienden te zijn.</p>
+        
+        <video width="320" height="240" controls>
+          <source src="mov_bbb.mp4" type="video/mp4">   <!--Dit is om een video toe te gaan voegen-->
+        </video> 
+        
+        
+         
+</body>
+</html>
