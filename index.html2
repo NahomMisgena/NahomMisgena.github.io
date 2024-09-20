@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mijn pagina</title>
+<link rel="stylesheet" href="opmaak.css">
+</head>
+<body>
+   <ul>
+       <li><a href="Binairstelsel.html">Binairstelsel</a></li>
+       <li><a href="Kleurmodelen.html">Kleurmodelen</a></li>
+       <li><a href="Compressie.html">Compressie</a></li>
+       <li><a href="Bitmap- en vectorafbeeldingen.html">bitmap- en vectorafbeeldingen</a></li>
+       </ul>
+
+
+
+
+</body>
+<h3>  </h3>
+<h1> </h1>
+
+
+
+
+
+
+</body>
+</html>
+
