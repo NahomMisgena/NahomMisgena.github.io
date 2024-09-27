@@ -94,7 +94,7 @@ text-align: center; /* Centreert de hoofdtekst op de pagina */
 
 img {
   border: 1px solid #ddd;       /* Ruimte binnen de rand van de afbeelding */
-  width: 300px;          /* Breedte van de afbeelding */
+  width: 330px;          /* Breedte van de afbeelding */
   height: auto;      /* Zorgt ervoor dat de hoogte automatisch wordt aangepast */
   border-radius: 4px;   /* Maakt de hoeken van de afbeelding afgerond */
   padding: 5px;            /* Ruimte binnen de rand van de afbeelding */
