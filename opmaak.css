@@ -13,7 +13,7 @@ body {
   color: rgb(240, 117, 16);
   text-align: center;
   padding: 16px 16px;
-  text-decoration: none;  /*Deze code is voor de tekst die je in de menu ziet (exclusief de Dropdown)*/
+  text-decoration: none;  
 }
 
 .dropdown {
@@ -77,12 +77,6 @@ ul {
 terecht op je scherm. */
 
 
-#body2 {
-  background-color: gray;
-}/*dit is voor de achtergrond kleur*/
-/*Deze code is er om een connectie met de pagina 
-die ik body2 (overmij) heb genoemd en nu kan ik via hier 
-de achtergrond kleur veranderen.*/
 
 h1 {
 text-align: center; /*dit is om de tekst naar het midden te zetten*/
@@ -94,7 +88,6 @@ text-align: center; /*dit is om de tekst naar het midden te zetten*/
   bottom: 0;
   width: 100%;
   background-color: black;
-  margin-bottom:0px;
   padding: 10px;
   color: white;
   text-align: center;
