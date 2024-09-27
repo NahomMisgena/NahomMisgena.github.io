@@ -57,7 +57,7 @@ body {
   background-color: #5c5b5b; /* Achtergrondkleur bij hover voor dropdown-links */
 }
 .dropdown:hover .dropdown-content {
-  display: block; * Maakt de dropdown zichtbaar bij hover */
+  display: block; /* Maakt de dropdown zichtbaar bij hover */
 }
 
 li {
@@ -99,8 +99,7 @@ img {
   border-radius: 4px;   /* Maakt de hoeken van de afbeelding afgerond */
   padding: 5px;            /* Ruimte binnen de rand van de afbeelding */
   
- 
-}
+ }
 
 
 
