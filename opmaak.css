@@ -88,6 +88,17 @@ h1 {
 text-align: center; /*dit is om de tekst naar het midden te zetten*/
 }
 
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: red;
+  text-align: center;
+  }
+
   
 
 
