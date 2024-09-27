@@ -3,33 +3,33 @@ body {
 }/*dit is voor de achtergrond kleur*/
 
 .navbar {
-  overflow: hidden;
+  overflow: hidden; /* Dit zorgt ervoor dat de navigatie-items niet buiten de navbar vallen */
   background-color: black; /*Dit is voor de achtergrond kleur van de navigation bar*/
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: rgb(240, 117, 16);
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;  
+.navbar a {   
+  float: left; /* Zorgt ervoor dat de links naast elkaar staan */
+  font-size: 16px; /* Tekengrootte voor de navigatielinks */
+  color: rgb(240, 117, 16);  /* Kleur van de tekst in de navigatiebalk */
+  text-align: center;  /* Centreert de tekst binnen de links */
+  padding: 16px 16px;  /* Ruimte rond de tekst in de links */
+  text-decoration: none;   /* Verwijdert de onderstreping van de tekst */
 }
 
 .dropdown {
-  float: left;
-  overflow: hidden; /*Deze code zorgt ervoor dat de lijst tevoorschijn komt onder de Dropdown en niet ergens anders*/
+  float: left; /* Zorgt ervoor dat de dropdown naast andere items staat */
+  overflow: hidden; /* Voorkomt dat de dropdownlijst buiten de container valt */
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white; 
-  background-color : inherit;
-  font-family: inherit;
-  padding: 16px 16px;
-  margin: 0;
+  font-size: 16px;  /* Tekengrootte voor de dropdown-knop */
+  border: none;  /* Geen rand voor de dropdown-knop */
+  outline: none; /* Verbergt de outline bij focus */
+  color: white; /* Kleur van de tekst op de dropdown-knop */
+  background-color : inherit; /* Achtergrondkleur overnemen van de bovenliggende container */
+  font-family: inherit;  /* Lettertype overnemen van de bovenliggende container */
+  padding: 16px 16px;   /* Ruimte rond de tekst in de dropdown-knop */
+  margin: 0;   /* Geen marge voor de dropdown-knop */
 } /*Deze code is er voor de opmaak van de Dropdown die je ziet in het menu. (exclusief de Dropdown content)*/
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -45,60 +45,61 @@ body {
 }
 
 .dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left; /* meer opmaak van het dropdown menu*/
+  float: none;  /*float instellen op geen */
+  color: white;      /* Kleur van de tekst in de dropdown */
+  padding: 12px 16px;    /* Ruimte rond de tekst in de dropdown-links */
+  text-decoration: none;  /* Verwijdert de onderstreping van de tekst */
+  display: block;         /* Zorgt ervoor dat de links als blokken worden weergegeven */
+  text-align: left;    /* Tekst uitlijnen aan de linkerkant */
 }
 
 .dropdown-content a:hover {
-  background-color: #5c5b5b; /*kleur achtergrond dropdown menu*/
+  background-color: #5c5b5b; /* Achtergrondkleur bij hover voor dropdown-links */
 }
-
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: block; * Maakt de dropdown zichtbaar bij hover */
 }
 
 li {
-  border-right: 1px solid #ea1717;
+  border-right: 1px solid #ea1717; /* Voegt een rechterrand toe aan lijstitems */
+
 }
 
 li:last-child {
-  border-right: none;
-} /*Dit is om tussen de blocken in het menu, een grens te laten zien*/
+  border-right: none;    /* Verwijdert de rechterrand voor het laatste lijstitem */
+}  /* Dit zorgt ervoor dat er geen rand aan de rechterkant van het laatste item zit */
 
 ul {
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
-} /*Dit is om het meer sticky te maken, dus als je naar beneden srollt komt het menu zelf in de goede plaats
-terecht op je scherm. */
+  position:-webkit-sticky;    /* Voor oudere browsers die sticky ondersteunen */
+  position: sticky;     /* Dit maakt de navbar sticky zodat deze blijft hangen bij scrollen */
+  top: 0;         /* Houdt de navbar bovenaan de pagina */
+}    /* Houdt de navbar bovenaan de pagina */
 
 
 
 h1 {
-text-align: center; /*dit is om de tekst naar het midden te zetten*/
+text-align: center; /* Centreert de hoofdtekst op de pagina */
 }
 
 
 .footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  padding: 10px;
-  color: white;
-  text-align: center;
+  left: 0;                 /* Positioneert de footer aan de linkerkant */
+  bottom: 0;            /* Positioneert de footer aan de onderkant van de pagina */
+  width: 100%;             /* Voorkomt dat de footer kleiner wordt dan de breedte van de pagina */
+  background-color: black;       /* Achtergrondkleur van de footer */
+  padding: 10px;             /* Ruimte binnen de footer */
+  color: white;            /* Kleur van de tekst in de footer */
+  text-align: center;     /* Centreert de tekst in de footer */
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 300px;
-  height: auto;
+  border: 1px solid #ddd;       /* Ruimte binnen de rand van de afbeelding */
+  width: 300px;          /* Breedte van de afbeelding */
+  height: auto;      /* Zorgt ervoor dat de hoogte automatisch wordt aangepast */
+  border-radius: 4px;   /* Maakt de hoeken van de afbeelding afgerond */
+  padding: 5px;            /* Ruimte binnen de rand van de afbeelding */
+  
+ 
 }
 
 
