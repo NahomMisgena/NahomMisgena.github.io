@@ -95,6 +95,8 @@ text-align: center; /*dit is om de tekst naar het midden te zetten*/
   bottom: 0;
   width: 100%;
   background-color: black;
+  Margin-bottom:0px;
+  padding: 10px;
   color: white;
   text-align: center;
 }
