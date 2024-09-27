@@ -90,6 +90,7 @@ text-align: center; /*dit is om de tekst naar het midden te zetten*/
 
 
 .footer {
+  position: none;
   left: 0;
   bottom: 0;
   width: 100%;
