@@ -78,7 +78,7 @@ terecht op je scherm. */
 
 
 #body2 {
-  background-color: rgb(224, 75, 12);
+  background-color: gray;
 }/*dit is voor de achtergrond kleur*/
 /*Deze code is er om een connectie met de pagina 
 die ik body2 (overmij) heb genoemd en nu kan ik via hier 
@@ -90,7 +90,6 @@ text-align: center; /*dit is om de tekst naar het midden te zetten*/
 
 
 .footer {
-  position: none;
   left: 0;
   bottom: 0;
   width: 100%;
